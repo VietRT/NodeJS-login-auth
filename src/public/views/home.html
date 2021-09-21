@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>home</title>
+    
+  </head>
+  <body>
+    <h1>Signup Auth</h1>
+    <div class="container">
+      <form action="/register" method="POST" id="login">
+        <label for="username">username:</label>
+        <input type="text" name="username" id="user" required="" autocomplete="off">
+        <label for="password">password:</label>
+        <input type="password" name="password" id="password" required="">
+        <label for="passwordConfirmation">Re-enter Password:</label>
+        <input type="password" name="passwordConfirmation" id="passwordConfirmation">
+        <button type="submit" id="signupbtn">Submit</button>
+      </form>  
+      <h1>Already a member?</h1>   
+      <button type="submit" id="loginfromsignup">Log In</button>
+    </div>
+    
+    <script src="public/js/signup.js"></script>
+  </body>
+</html>
